@@ -2,7 +2,6 @@ package giannis.springframework.Exercise1.bootstrap;
 
 import giannis.springframework.Exercise1.domain.Author;
 import giannis.springframework.Exercise1.domain.Book;
-import giannis.springframework.Exercise1.domain.BookRepository;
 import giannis.springframework.Exercise1.domain.Publisher;
 import giannis.springframework.Exercise1.repositories.AuthorRepository;
 import giannis.springframework.Exercise1.repositories.BookRepositories;
@@ -69,6 +68,7 @@ public class BootStrapData implements CommandLineRunner {
 
         System.out.println("Number of Books: "+ bookRepositories.count());
         System.out.println("Publisher Number of Books: " + publisher.getBooks().size());
+
 
 
     }
