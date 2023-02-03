@@ -1,4 +1,4 @@
-package net.yfantidis.exercise4;
+package net.yfantidis.exercise4.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +17,7 @@ public class RootController {
                         "<title>Yfantidis test Spring </title>"+
                         "</head>"+
                         "<body>"+
-                        "<h1>Welcome!</h1>"+
+                        "<h1>Welcome to testing!</h1>"+
                         "</body>"+
                         "</html>";
     }
