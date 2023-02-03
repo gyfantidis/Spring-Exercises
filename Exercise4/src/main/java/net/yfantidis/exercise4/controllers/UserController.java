@@ -21,4 +21,16 @@ public class UserController {
                         "</body>"+
                         "</html>";
     }
+
+    public String handleUserRequest(){
+        return
+                "<html>"+
+                        "<head>"+
+                        "<title>Yfantidis test Spring </title>"+
+                        "</head>"+
+                        "<body>"+
+                        "<h1>Hello User !</h1>"+
+                        "</body>"+
+                        "</html>";
+    }
 }
