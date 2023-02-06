@@ -20,4 +20,9 @@ public class UserControllerTh3Double {
         return "done";
     }
 
+    @RequestMapping(value="/user3/???", method=RequestMethod.GET)
+    public String handlerRequest(){
+        return "done";
+    }
+
 }
